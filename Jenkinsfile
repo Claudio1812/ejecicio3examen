@@ -13,7 +13,7 @@ pipeline {
     
     stage('Git fetch') { 
       steps {
-        git 'https://github.com/Claudio1812/Practica7Maven'
+        git 'https://github.com/Claudio1812/ejecicio3examen'
       }
     }
     stage('Compile, Test, Package') { 
